@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TablaEjercicio1</title>
+    <style>
+        body{
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(136, 226, 226);
+        }
+        #tabla{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: rgb(226, 226, 136);
+            border-radius: 10px;
+            width:1000px
+        }
+        #tabla div{
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+            color: rgb(125, 120, 120);
+            font-size:small;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabla de Comparación</h1>
+    <div id="tabla">
+        <div></div><div>Stack overflow</div><div>Youtube</div>
+        <div>Título</div><div>(<)title>Newest Questions - Stack Overflow(<)/title(>)</div><div>(<)title>YouTube(<)/title(>)</div>
+        <div>Descripción</div><div>(<)meta name="twitter:description" property="og:description" content="Stack Overflow | The World&#x2019;s Largest Online Community for Developers"(>)</div><div>(<)meta name="description" content="Comparte vídeos con tus amigos, tu familia y el resto del mundo"(>)</div>
+        <div>¿Tiene viewport?</div><div>(<)meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"(>)</div><div>(<)meta name="viewport" content="width=device-width,initial-scale=1.0"(>)</div>
+        <div>Favicon</div><div>(<)link rel="icon" sizes="32x32" href="https://stackoverflow.com/Content/Sites/stackoverflow/Img/favicon.ico?v=562fb39d93c8"(>)<link rel="icon" sizes="32x32" href="https://stackoverflow.com/Content/Sites/stackoverflow/Img/favicon.ico?v=562fb39d93c8"></div><div>(<)link rel="icon" href="https://www.youtube.com/img/favicon.ico" type="image/x-icon"(>)<link rel="icon" href="https://www.youtube.com/img/favicon.ico" type="image/x-icon"></div>
+        <div>nº Hojas de estilo</div><div>3= (<)link rel="stylesheet" type="text/css" href="https://stackoverflow.com/Content/Shared/stacks.css?v=b2264ccf0463"(>)(<)link rel="stylesheet" type="text/css" href="https://stackoverflow.com/Content/Sites/stackoverflow/primary.css?v=d25e8336a53c"(>)(<)link rel="stylesheet" type="text/css" href="https://stackoverflow.com/Content/Shared/Channels/channels.css?v=d431b1be5a03"(>)</div><div>2 (metidas en el head)</div>
+        <div>¿Tiene og:?</div><div>(<)meta name="twitter:description" property="og:description" content="Stack Overflow | The World&#x2019;s Largest Online Community for Developers"(>) </div><div>No</div>
+        <div>¿Keywords?</div><div>Sí usa, pero fatal</div><div>(<)meta name="keywords" content="vídeo, compartir, teléfono con cámara, teléfono con vídeo, gratis, subida"(>)</div>
+    </div>
+
+</body>
+</html>
