@@ -9,16 +9,16 @@
 
 ## Tarjetas para futuras aclaraciones
 > [!NOTE]
-> Información de contexto que conviene saber.
+> nota
 
 > [!TIP]
-> Un atajo o consejo para hacerlo mejor.
+> consejo
 
 > [!IMPORTANT]
-> Algo imprescindible para que funcione.
+> algo importante (valga la redundancia)
 
 > [!WARNING]
-> Riesgo que puede romper algo.
+> Riesgo
 
 > [!CAUTION]
-> Acción peligrosa (p. ej. borrar datos).
+> Acción peligrosa
